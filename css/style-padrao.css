@@ -21,7 +21,7 @@ body{
 /* Estilização do HEADER - NAV */
 .cabecalho{
     width: 100%;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyfHr3yqOBglHe-y4PdkmMa7Nox8oDLj9q0w&usqp=CAU");
+    background-image: url("(https://thumbs.dreamstime.com/b/esquina-de-comida-mexicana-borde-arriba-abajo-vista-sobre-un-oscuro-fondo-banner-con-espacio-copia-la-est%C3%A1-en-parte-hacia-tacos-191566359.jpg ");
 }
 
 .menu{
@@ -42,7 +42,9 @@ body{
 
 .bi-file-person{
     font-size: 60px;
-    color: var(--background-clean);
+    color: var(--cor-da-empresa);
+    padding-right: 1rem;
+    
 }
 
 ul li#imagem-localizacao{
@@ -51,24 +53,25 @@ ul li#imagem-localizacao{
     padding-left: 5rem;
     margin-right: .8rem;
     align-items: center;
-
+    color: var(--cor-da-empresa);
 
 }
 
 .bi-geo-alt{
     font-size: 60px;
-    color: var(--background-clean);
+    color: var(--cor-da-empresa);
 }
 
 .nome-localizacao{
     font-size: 40px;
-    padding-left: 0;
+    padding-left: 3rem;
     padding-right: 5rem;
+    color: var(--cor-da-empresa);
 }
 
 .bi-card-image{
     font-size: 60px;
-    color: var(--background-clean);
+    color: var(--cor-da-empresa);
 }
 
 
@@ -266,7 +269,7 @@ section#avaliacao{
 
 .footer{
     background-color: var(--background-clean);
-    margin-top: 5rem; 
+    margin-top: 3rem; 
 }
 
 .footer-card{
@@ -291,33 +294,33 @@ section#avaliacao{
 
 i.bi-house-fill{
     font-size: 40px;
-    color: var(--cor-da-empresa);
+    color: var(--cor-empresa);
 }
 
 i.bi-emoji-smile{
     font-size: 40px;
-    color: var(--cor-da-empresa);
+    color: var(--cor-empresa);
 }
 
 i.bi-upc-scan{
     font-size: 40px;
-    color: var(--cor-da-empresa);
+    color: var(--cor-empresa);
 }
 
 i.bi-cart{
-    font-size: 40px;
-    color: var(--cor-da-empresa);
+    font-size: 60px;
+    color: var(--cor-empresa);
 }
 
 i.bi-stickies{
     font-size: 40px;
-    color: var(--cor-da-empresa);
+    color: var(--cor-empresa);
 }
 
 .footer-nome-item{
     font-size: 20px;
     font-weight: 700;
-    color: gray; 
+    color: gray;  
 }
 
 /* Usando media queries para transformar nossa page
@@ -355,11 +358,12 @@ acessivel a tela menores */
     i.bi-search{
         position: absolute;
         margin-right: 3rem;
-        padding-left: 2rem;
+        padding-left: 3rem;
     }
 
     #categoria-ul{
         flex-wrap: wrap;
+        margin: auto;
     }
 
     #cards-produtos{
